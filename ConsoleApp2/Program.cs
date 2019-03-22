@@ -5,6 +5,11 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
+//Task 6. Implement function that takes two parameters.First one is string, second one is Array of words.
+//Function should return Array of objects with 2 properties.First is Word, second is amount of times this 
+//word can be found in text.Be careful since word: Anna and anna is the same. 
+//you can use method ".toLowerCase" to make words similar.
+
 namespace ConsoleApp2
 {
     public class MyClass

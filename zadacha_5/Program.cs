@@ -4,6 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Task 5. Declare object with 4 methods: sum, sub, mult, div.All 4 methods 
+//do 4 basic math operations: sum, substract, multiply and divide.
+//Implement following calculation using declared object: 
+//x= 4;
+//y = 10;
+//x+x*5-y/2;
+
 namespace zadacha_5
 {
     class MyClass
@@ -68,7 +75,7 @@ namespace zadacha_5
             double x = 4;
             double y = 10;
 
-            Console.WriteLine("Print result = " + obj.Sub(obj.Sum(x, obj.Mult(x, 5)), this.Div(y, 2)) + ";");
+            Console.WriteLine("Print result = " + obj.Sub(obj.Sum(x, obj.Mult(x, 5)), obj.Div(y, 2)) + ";");
             
             Console.ReadKey();
         }

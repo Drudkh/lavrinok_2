@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Task 7. Implement function that takes array of numbers as parameter and returns array of Objects which has 1 property, 
+//and one method.Property is Number from array, Method is function that returns True if number is odd and False if even.
+
 namespace ConsoleApp1
 {
     public class MyClass
